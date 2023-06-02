@@ -32,7 +32,7 @@ topology:
       image: frrouting/frr
       binds:
         - config/r5/daemons:/etc/frr/daemons
-        - config/r5/frr.conf:/etc/frr/frr.conf           
+        - config/r5/frr.conf:/etc/frr/frr.conf             
     host6:
       exec:
         - ip addr add 192.168.1.6/24 dev eth1     
