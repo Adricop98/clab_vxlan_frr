@@ -1,24 +1,24 @@
 # VxLAN Lab
-yo
-This lab demonstrates the use of VxLAN to create an Ethernet tunnel connecting two LAN segments across a layer 3 network using BGP EVPN technology.
+Questa è la maxistoria di come il progetto cambiato, capovolto, sottosopra sia finito.
+Seduto su due piedi qui con te, ti farò vedere un progetto che ne vale 3.
 
 ![Simple VxLAN tunnel](img/vxlan_simple.png)
 
-## Starting and ending the lab
+## Abbj a parti cu stu lab
 
-Use the following command to start the lab:
+Usa sto comando p fa parti o fattacc, però e sta ind a cartell, gia sai:
 
 ```
 $ sudo clab deploy -t vxlan-frr-simple.clab.yml
 ```
 
-Setup VxLAN:
+nu t scorda a fa parti o scripptin:
 
 ```
 $ sudo ./setup-vxlan.sh
 ```
 
-To end the lab:
+P lua tutt cos e miezz:
 
 ```
 sudo clab destroy --t vxlan-frr-simple.clab.yml
